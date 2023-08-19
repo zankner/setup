@@ -17,7 +17,6 @@
   "python.linting.pylintArgs": [
     "--generated-members=numpy.* ,torch.* ,cv2.* , cv.*, plt.*"
   ],
-  "editor.fontSize": 15,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -67,6 +66,28 @@
       "args": ["%DOCFILE%"],
       "env": {}
     }
-  ]
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "remote.SSH.useFlock": false,
+  "editor.inlineSuggest.enabled": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.mac": "/Users/zackankner/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.minikube-path.mac": "/Users/zackankner/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.fontSize": 14,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["u"],
+        "commands": []
+    }
+]
 }
-
